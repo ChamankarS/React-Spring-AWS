@@ -14,11 +14,11 @@ sudo mysql -h <rds_endpoint> -u <username> -p
 ```
 ```sql
 CREATE DATABASE springbackend;
-GRANT ALL PRIVILEGES ON springbackend.* TO 'username'@'localhost' IDENTIFIED BY 'your_password';
+GRANT ALL PRIVILEGES ON <database_name>.* TO 'username'@'localhost' IDENTIFIED BY 'your_password';
 ```
 ### Import Database from SQL File
 ```bash
-sudo mysql -h <rds_endpoint> -u <username> -p <database_name> < springbackend.sql
+sudo mysql -h <rds_endpoint> -u <username> -p <database_name> < EventSpherebackend.sql
 ```
 ```bash
 sudo mysql -h <rds_endpoint> -u <username> -p
