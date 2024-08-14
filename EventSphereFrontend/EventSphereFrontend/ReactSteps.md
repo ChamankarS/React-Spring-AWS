@@ -47,11 +47,13 @@ systemctl status nginx
 ```
 
 ## Step 7: Update the nginx server file with the following content
+
 ```bash
  vi /etc/nginx/sites-available/default
 ```
 
-##server {
+```bash
+server {
         listen 3000 default_server;
         listen [::]:3000 default_server;
 
@@ -97,6 +99,7 @@ systemctl status nginx
         return 204;
     }
 }
+```
 
 ## Step 8: REstart the nginx server
 ```bash
