@@ -1,9 +1,12 @@
 
 # Clone the Repo on both the instance
-  git clone <git_http_url_project>
 
+  git clone <git_http_url_project>
+  Setup the RDS on AWS
+  
 # Installing MariaDB, Setting Password, and Importing Database on Ubuntu Linux
 ## Setup MariaDB and Import MySQL
+
 ```bash
 sudo apt update
 sudo apt install mariadb-server
