@@ -1,5 +1,5 @@
 
-# Clone the Repo
+# Clone the Repo on both the instance
   git clone <git_http_url_project>
 
 # Installing MariaDB, Setting Password, and Importing Database on Ubuntu Linux
