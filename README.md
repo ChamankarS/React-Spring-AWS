@@ -1,1 +1,3 @@
-# React-Spring-AWS
+# Deploy Full Stack React-Springboot Application on AWS
+
+# EventSphere
