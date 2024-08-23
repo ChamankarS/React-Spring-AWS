@@ -103,5 +103,5 @@ server {
 
 ## Step 8: REstart the nginx server
 ```bash
- systemctl resatrt nginx
+ systemctl restart nginx
 ```
