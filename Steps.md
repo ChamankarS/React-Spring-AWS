@@ -16,7 +16,7 @@ sudo mysql_secure_installation
 sudo mysql -h <rds_endpoint> -u <username> -p
 ```
 ```sql
-CREATE DATABASE springbackend;
+CREATE DATABASE event_management_system;
 GRANT ALL PRIVILEGES ON <database_name>.* TO 'username'@'localhost' IDENTIFIED BY 'your_password';
 ```
 ### Import Database from SQL File
